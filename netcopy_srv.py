@@ -12,14 +12,11 @@ Arguments:
 1: ip
 2: port
 3: filePath
-4: without chekcsum does not work
-
-
 '''
 
 BUFFER_SIZE = 1024
 
-print("NetCopy SERVER")
+print("Server started.")
 
 if(len(sys.argv) != 4):
     print("Wrong arguments!")
